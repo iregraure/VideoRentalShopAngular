@@ -1,0 +1,23 @@
+.pelicula
+{
+    width: 30%;
+    margin: 4vw;
+}
+
+.header
+{
+    font-size: 1.4vw;
+    border: solid 2px grey;
+    border-radius: 15px 15px 0 0;
+    text-align: center;
+    background-color: #443B9E;
+}
+
+.body
+{
+    font-size: 1.4vw;
+    background-color: #DDDAF6;
+    border: solid 2px grey;
+    border-radius: 0 0 15px 15px;
+    padding: 1.6vw;
+}

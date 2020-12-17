@@ -1,0 +1,22 @@
+<form [formGroup]="filmForm" class="formulario">
+    <div class="campo">
+        <label for="originalTitle">Titulo original</label>
+        <input type="text" formControlName="originalTitle" name="originalTitle" class="form-control"
+            placeholder="Introduce título original">
+    </div>
+    <div class="campo">
+        <label for="spanishTitle">Titulo en español</label>
+        <input type="text" formControlName="spanishTitle" name="spanishTitle" class="form-control"
+            placeholder="Introduce título en español">
+    </div>
+    <div class="campo">
+        <label for="year">Año</label>
+        <input type="text" formControlName="year" name="year" class="form-control" placeholder="Introduce año">
+    </div>
+    <div class="campo">
+        <label for="duration">Duración</label>
+        <input type="text" formControlName="duration" name="duration" class="form-control"
+            placeholder="Introduce duracion">
+    </div>
+    <button [disabled]="!filmForm.valid" (click)="creaPelicula()">Crear película</button>
+</form>

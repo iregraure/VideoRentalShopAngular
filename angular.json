@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "VideoRentalShopAngular"
+  "defaultProject": "VideoRentalShopAngular",
+  "cli": {
+    "analytics": false
+  }
 }

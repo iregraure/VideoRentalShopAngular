@@ -1,0 +1,40 @@
+.grid
+{
+    margin-top: 4vw;
+}
+
+.film
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 2vw;
+    border: solid 1px black;
+    width: 50%;
+    font-size: 20px;
+    background-color: #8781CC;
+    padding: 20px 0;
+}
+
+button
+{
+    margin-left: 20px;
+    font-size: 20px;
+    color: #1C146D;
+    padding: 0 20px;
+    background-color: #5E56B0;
+    border: solid 1px #1C146D;
+}
+
+button:hover
+{
+    background-color: #443B9E;
+    color: #1C146D;
+    border: solid 1px #1C146D;
+}
+
+a,
+a:visited
+{
+    color: #1C146D;
+    text-decoration: none;
+}

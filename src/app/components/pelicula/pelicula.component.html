@@ -1,0 +1,13 @@
+<div *ngIf="film">
+    <div class="pelicula">
+        <!-- Un div para el título y otro para los datos -->
+        <div class="header">
+            <h2>{{film.spanishTitle}}</h2>
+        </div>
+        <div class="body">
+            <p>Título Original: {{film.originalTitle}}</p>
+            <p>Año: {{film.year}}</p>
+            <p>Duracion: {{film.duration}}</p>
+        </div>
+    </div>
+</div>

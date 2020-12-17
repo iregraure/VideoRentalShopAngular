@@ -1,0 +1,31 @@
+.formulario
+{
+    margin-top: 3vw;
+    margin-left: 2vw;
+    font-size: 2vw;
+    width: 40%;
+    border: groove 4px #443B9E;
+    border-style: dashed dotted;
+}
+
+.campo
+{
+    margin: 2vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+button
+{
+    background-color: #2D2389;
+    color: #8781CC;
+    font-size: 25px;
+    margin: 2vw;
+    padding: 10px;
+    border: solid 3px #8781CC;
+}
+
+button:hover
+{
+    background-color: #443B9E;
+}

@@ -1,0 +1,24 @@
+h1
+{
+    text-align: center;
+    font-size: 60px;
+    color: #501B85;
+}
+
+a,
+a:visited
+{
+    text-decoration: none;
+    background-color: #A079C8;
+    color: #3B0D6A;
+    border: solid 1px #3B0D6A;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 10px 20px;
+    margin: 20px ;
+}
+
+a:hover
+{
+    background-color: #7C4EAB;
+}
